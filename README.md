@@ -1,8 +1,8 @@
-# EVM-based Chains
+## EVM-based Chains
 
 The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
 
-## Example
+## Examples
 
 ```json
 {
@@ -84,6 +84,7 @@ There are also aggregated json files with all chains automatically assembled:
  * if referencing a parent chain - the chain MUST exist in the repo
  * if using a IPFS CID for the icon - the CID MUST be retrievable via `ipfs get` - not only through some gateway (means please do not use pinata for now)
  * for more constraints you can look into the CI
+ * for more constraints you can look into the CIs
 
 ## Collision management
 
